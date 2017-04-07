@@ -1,4 +1,4 @@
-package exampleSolution;
+package de.htwg.gib.prog2.exercise1;
 public class ArrayException {
 
 	public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package exampleSolution;
+package de.htwg.gib.prog2.exercise1;
 import java.util.Date;
 
 public class Patient {
