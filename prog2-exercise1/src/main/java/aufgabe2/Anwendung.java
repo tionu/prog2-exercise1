@@ -1,4 +1,5 @@
-package de.htwg.gib.prog2.exercise1;
+package aufgabe2;
+
 import java.util.Date;
 import java.util.Scanner;
 
@@ -40,6 +41,8 @@ public class Anwendung {
 		} catch (NullPointerException e) {
 			System.out.println("Ausnahme: " + e.getMessage());
 		}
+		
+		keyboardInput.close();
 
 	}
 

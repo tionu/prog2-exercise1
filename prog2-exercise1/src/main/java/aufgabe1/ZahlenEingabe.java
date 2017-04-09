@@ -1,4 +1,4 @@
-package de.htwg.gib.prog2.exercise1;
+package aufgabe1;
 
 import java.util.Scanner;
 
@@ -7,13 +7,13 @@ public class ZahlenEingabe {
 	public static void main(String[] args) {
 		int zaehler, nenner, ergebnis;
 
-		Scanner s = new Scanner(System.in);
+		Scanner scanner = new Scanner(System.in);
 
 		System.out.println("Bitte Zähler eingeben:");
-		zaehler = s.nextInt();
+		zaehler = scanner.nextInt();
 
 		System.out.println("Bitte Nenner eingeben:");
-		nenner = s.nextInt();
+		nenner = scanner.nextInt();
 
 		try {
 			ergebnis = zaehler / nenner;
@@ -22,7 +22,7 @@ public class ZahlenEingabe {
 			System.out.println("Es ist ein Fehler aufgetreten. " + e.toString());
 
 		}
-		s.close();
+		scanner.close();
 
 	}
 
